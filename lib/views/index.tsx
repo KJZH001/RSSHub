@@ -141,7 +141,9 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                     欢迎来到<span className="text-[#F5712C]">RSSHub</span>!
                 </h1>
                 <p className="text-zinc-500">如果你看到这个页面，说明RSSHub已经在正常运行</p>
-                <p className="text-zinc-500">本站由 <a href="https://blog.moeworld.tech">晓空</a> 维护，在合理的范围内提供公益使用</p>
+                <p className="text-zinc-500">
+                    本站由 <a href="https://blog.moeworld.tech">晓空</a> 维护，在合理的范围内提供公益使用
+                </p>
                 <p className="text-zinc-500">除对主页进行汉化修改和增加维护者署名以外，和上游项目保持一致，但不会始终保持更新</p>
                 <p className="text-xl font-medium text-zinc-600">让任何站点可被rss订阅</p>
                 <div className="font-bold space-x-4 text-sm">
