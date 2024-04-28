@@ -3,7 +3,7 @@ import type { FC } from 'hono/jsx';
 export const Layout: FC = (props) => (
     <html>
         <head>
-            <title>欢迎来到MoeWorld RSSHub - Welcome to RSSHub! ——由 晓空blog 运营的公益RSSHub站点</title>
+            <title>Welcome to RSSHub!</title>
             <script src="https://cdn.tailwindcss.com"></script>
             <style>
                 {`
