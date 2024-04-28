@@ -138,9 +138,11 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
             <div className="w-full h-screen flex items-center justify-center flex-col space-y-4">
                 <img src="/logo.png" alt="RSSHub" width="100" loading="lazy" />
                 <h1 className="text-4xl font-bold">
-                    Welcome to <span className="text-[#F5712C]">RSSHub</span>!
+                    欢迎来到<span className="text-[#F5712C]">RSSHub</span>!
                 </h1>
                 <p className="text-zinc-500">如果你看到这个页面，说明RSSHub已经在正常运行</p>
+                <p className="text-zinc-500">本站由 <a href="https://blog.moeworld.tech">晓空</a> 维护，在合理的范围内提供公益使用</p>
+                <p className="text-zinc-500">除对主页进行汉化修改和增加维护者署名以外，和上游项目保持一致，但不会始终保持更新</p>
                 <p className="text-xl font-medium text-zinc-600">让任何站点可被rss订阅</p>
                 <div className="font-bold space-x-4 text-sm">
                     <a target="_blank" href="https://docs.rsshub.app">
@@ -155,7 +157,7 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                 </div>
                 {info.showDebug ? (
                     <details className="text-xs w-96 !mt-8 max-h-[400px] overflow-auto">
-                        <summary className="text-sm cursor-pointer">Debug Info</summary>
+                        <summary className="text-sm cursor-pointer">调试信息</summary>
                         {info.debug.map((item) => (
                             <div class="debug-item my-3 pl-8">
                                 <span class="debug-key w-32 text-right inline-block mr-2">{item.name}: </span>
