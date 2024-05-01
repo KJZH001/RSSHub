@@ -8,9 +8,10 @@ on:
   push:
     branches:
       - master
-  schedule:
+  # schedule:
     # random HH:MM to avoid a load spike on GitHub Actions at 00:00
-    - cron: 21 20 * * *
+    # 禁止此任务自动运行
+    # - cron: 21 20 * * *
 
 permissions:
   contents: read
