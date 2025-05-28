@@ -6592,6 +6592,9 @@
   "/zjuvag/blog": [
     "KaiyoungYu"
   ],
+  "/zjzs/zjzs/info/:classID?": [
+    "your-github-id"
+  ],
   "/zodgame/forum/:fid?": [
     "FeCCC"
   ],

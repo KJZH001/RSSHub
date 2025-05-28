@@ -65641,6 +65641,20 @@
     "name": "浙江大学可视分析小组",
     "url": "zjuvag.org"
   },
+  "zjzs": {
+    "name": "zjzs",
+    "routes": {
+      "/zjzs/info/:classID?": {
+        "path": "/zjzs/info/:classID?",
+        "name": "浙江省自考公告",
+        "example": "/zjzs/info/11",
+        "maintainers": [
+          "your-github-id"
+        ],
+        "location": "info.ts"
+      }
+    }
+  },
   "zodgame": {
     "routes": {
       "/forum/:fid?": {
